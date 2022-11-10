@@ -70,6 +70,7 @@ function setup() {
             let type = cardType[cardNumber];
 
             card.addImage('front', frontImages[type]);
+            card.scale = 0.8;
 
             // typeをcardの中に保存
             card.type = type;
