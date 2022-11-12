@@ -62,7 +62,7 @@ function setup() {
     let cardNumber = 0;
     for (let y = 0; y < 3; y++){
         for (let x = 0; x < 6; x++){
-            let card = createSprite (300 + 210 * x, 165 + 210 * y);
+            let card = createSprite (30 + 210 * x, 16 + 210 * y);
             
             card.addImage('back', backImage);
             
